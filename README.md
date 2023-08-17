@@ -16,7 +16,6 @@ Simple API for chat applications with user registration, using websockets and sa
 ### Configuring Alembic for the asynchronous driver
 1. From the root directory, start the 
 `alembic init -t async migrations`
-2. Run `alembic upgrade head` in the terminal
 
 ### Application launch
 1. Go to the `src` folder
