@@ -1,6 +1,5 @@
-# Simple-chat-API
-
-**Simple API for chat applications with user registration, using websockets and saving chat history to PostgreSQL database.**
+## About Project
+Simple API for chat applications with user registration, using websockets and saving chat history to PostgreSQL database.
 
 ### Project Stack: 
  - FastAPI
@@ -9,3 +8,16 @@
  - Websockets
  - Alembic
  - Pydantic
+
+### Start the application
+1. Create a virtual environment and install dependencies
+2. Run `pip install -r` in the terminal
+
+### Configuring Alembic for the asynchronous driver
+1. From the root directory, start the 
+`alembic init -t async migrations`
+2. Run `alembic upgrade head` in the terminal
+
+### Application launch
+1. Go to the `src` folder
+2. Run `uvicorn main:app --reload` in the terminal
