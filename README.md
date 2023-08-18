@@ -11,7 +11,7 @@ Simple API for chat applications with user registration, using websockets and sa
 
 ### Start the application
 1. Create a virtual environment and install dependencies
-2. Run `pip install -r` in the terminal
+2. Run `pip install -r requirements.txt` in the terminal
 
 ### Configuring Alembic for the asynchronous driver
 1. From the root directory, start the 
